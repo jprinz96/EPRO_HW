@@ -21,6 +21,9 @@ public class Main {
             if (choiceMoreBooking == 'Y' || choiceMoreBooking == 'y') {
                 Menu.packageMenu();
                 BookingCart.packageBooking();
+            } else if (choiceMoreBooking != 'Y' || choiceMoreBooking != 'y' && choiceMoreBooking != 'N' && choiceMoreBooking != 'n') {
+                System.out.println("Invalid choice. Please type Y for Yes or N for No.");
+
             }
 
         } while (choiceMoreBooking != 'N' && choiceMoreBooking != 'n' && BookingCart.getCountOfAllPackages() < BookingCart.getMaxPackages());

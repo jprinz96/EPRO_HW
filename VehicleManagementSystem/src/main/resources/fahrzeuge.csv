@@ -1,0 +1,10 @@
+ID;Marke;Modell;Fahrzeugtyp;Baujahr;Kilometerstand;Preis
+1;Toyota;Corolla;PKW;2015;75000;12000
+2;Ford;Transit;Transporter;2018;50000;20000
+3;BMW;R1200GS;Motorrad;2020;15000;15000
+4;Volkswagen;PKW;2017;60000;13000
+
+5;Mercedes;Sprinter;Transporter;2016;-20;22000
+6;Mercedes;Sprinter;Transporter;2016;654687;-78
+6;Mercedes;Sprinter;Transporter;1760;654687;5000
+6;Mercedes;Sprinter;Transporter;2026;654687;5000

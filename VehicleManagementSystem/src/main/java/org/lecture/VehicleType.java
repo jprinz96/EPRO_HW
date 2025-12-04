@@ -4,4 +4,7 @@ public enum VehicleType {
     PKW,
     TRANSPORTER,
     MOTORRAD
+
 }
+
+

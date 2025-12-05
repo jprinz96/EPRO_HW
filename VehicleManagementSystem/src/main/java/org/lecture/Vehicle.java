@@ -30,9 +30,9 @@ o	Anzahl Fahrzeuge pro Typ: Berechne die Anzahl der Fahrzeuge pro Fahrzeugtyp un
     VehicleType type;
     private int year;
     private int mileage;
-    private int price;
+    private double price;
 
-    public Vehicle(int id, String brand, String model, VehicleType type, int year, int mileage, int price) {
+    public Vehicle(int id, String brand, String model, VehicleType type, int year, int mileage, double price) {
         this.id = id;
         this.brand = brand;
         this.model = model;
@@ -42,11 +42,11 @@ o	Anzahl Fahrzeuge pro Typ: Berechne die Anzahl der Fahrzeuge pro Fahrzeugtyp un
         this.price = price;
     }
 
-    public int getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public void setPrice(int price) {
+    public void setPrice(double price) {
         this.price = price;
     }
 
@@ -100,14 +100,6 @@ o	Anzahl Fahrzeuge pro Typ: Berechne die Anzahl der Fahrzeuge pro Fahrzeugtyp un
 
     @Override
     public String toString() {
-        return "Vehicle{" +
-                "id=" + id +
-                ", brand='" + brand + '\'' +
-                ", model='" + model + '\'' +
-                ", type=" + type +
-                ", year=" + year +
-                ", mileage=" + mileage +
-                ", price=" + price +
-                '}';
+        return String.format("Vehilce: %d. Brand: %s, Model: %s, Type: %s, Year: %d, Mileage: %d, Price: %.2f ", id, brand, model, type, year, mileage, price);
     }
 }

@@ -29,6 +29,10 @@ public class VehicleFilter {
             if (vehicle.getPrice() >= startPrice && vehicle.getPrice() <= endPrice) {
                 filteredVehiclesByPrice.add(vehicle);
             }
+
+        }
+        if (filteredVehiclesByPrice.isEmpty()) {
+            System.out.println("No vehicles found for price " + startPrice + " and " + endPrice);
         }
         return filteredVehiclesByPrice;
     }
@@ -39,6 +43,9 @@ public class VehicleFilter {
             if (vehicle.getYear() >= year) {
                 filteredVehiclesByYear.add(vehicle);
             }
+        }
+        if (filteredVehiclesByYear.isEmpty()) {
+            System.out.println("No vehicles found for year " + year);
         }
 
         return filteredVehiclesByYear;

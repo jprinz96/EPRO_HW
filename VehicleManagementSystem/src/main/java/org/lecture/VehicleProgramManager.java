@@ -20,7 +20,7 @@ public class VehicleProgramManager {
                 6 - Reduce  all vehicle prices
                 7 - Average of all vehicle prices
                 8 - Number of vehicles per type
-                9 - List all validation errors
+                9 - Save vehicles to new CSV file
                 0 - Beenden
                 """);
     }

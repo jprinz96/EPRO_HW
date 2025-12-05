@@ -1,9 +1,24 @@
 package org.lecture;
 
-public class VehicleFileWriter {
-    /*
-    6.	Speichern der veränderten Fahrzeugdaten in eine neue CSV-Datei
-o	Speichere die aktualisierten Fahrzeugdaten in einer neuen Datei (z. B. fahrzeuge_aktualisiert.csv).
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.List;
 
-     */
+public class VehicleFileWriter {
+
+    public boolean writeVehiclesToCsv(String filePath, List<Vehicle> vehicles) throws IOException {
+        try (BufferedWriter bw = new BufferedWriter(new FileWriter(filePath))) {
+            for (Vehicle vehicle : vehicles) {
+                bw.write(vehicle.toString());
+                bw.newLine();
+            }
+        }catch (IOException e){
+            System.out.println("Error writing vehicles to CSV file" +filePath);
+            System.out.println(e.getMessage());
+            return false;
+        }
+    return true;
+    }
+
 }

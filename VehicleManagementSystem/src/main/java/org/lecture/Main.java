@@ -100,6 +100,19 @@ public class Main {
                 }
                 //Speichern in neue CSV-Datei
                 case 9 -> {
+                    VehicleFileWriter vehicleFileWriter = new VehicleFileWriter();
+                    Path outputFilePath = Paths.get("src", "main", "resources", "fahrzeuge_new.csv");
+                    boolean success = false;
+                    try{
+                        success = vehicleFileWriter.writeVehiclesToCsv(outputFilePath.toString(), vehicles);
+                    }catch (Exception e){
+                        throw new RuntimeException(e);
+                    }
+                    if (success) {
+                        System.out.println("Produkte erfolgreich in die Datei geschrieben: " + outputFilePath);
+                    } else {
+                        System.out.println("Fehler beim Schreiben der Produkte in die Datei: " + outputFilePath);
+                    }
 
                 }
                 case 0 -> {

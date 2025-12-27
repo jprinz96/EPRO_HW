@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class VehicleFilter {
-    //menü?
-
 
     //Filter nach Fahrzeugtyp (Enum VehicleType)
     public List<Vehicle> filterByType(List<Vehicle> vehicles, VehicleType vehicleType) {

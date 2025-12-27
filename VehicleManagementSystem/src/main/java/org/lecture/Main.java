@@ -2,7 +2,6 @@ package org.lecture;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
@@ -124,76 +123,6 @@ public class Main {
             }
 
         }
-
-
-
-/*
-        for (Vehicle vehicle : vehicles) {
-            System.out.println(vehicle);
-        }
-    */
-/*
-        //Filterungen
-        VehicleFilter vehicleFilter = new VehicleFilter();
-
-        //nach Typ
-        //System.out.println("Which type of vehicle would you like to filter? (PKW,TRANSPORTER, MOTORRAD): ");
-
-       // VehicleType selectedVehicleType = VehicleType.valueOf(scan.nextLine().toUpperCase());
-        List<Vehicle> filteredVehicles;
-        //filteredVehicles = vehicleFilter.filterByType(vehicles,selectedVehicleType);
-      /*  for (Vehicle vehicle : filteredVehicles) {
-            System.out.println(vehicle);
-        }
-*/
-        //Preis von bis
-       /* System.out.println("Enter the startprice: ");
-        int startprice = scan.nextInt();
-        scan.nextLine();
-        System.out.println("Enter the endprice: ");
-        int endprice = scan.nextInt();
-        scan.nextLine();
-        filteredVehicles = vehicleFilter.filterByPrice(vehicles, startprice, endprice);
-        for (Vehicle vehicle : filteredVehicles) {
-            System.out.println(vehicle);
-        }
-*/
-        /*
-        //ab Baujahr ...
-        System.out.println("Enter the year of manufacture from which the search should start: ");
-        int year = scan.nextInt();
-        scan.nextLine();
-
-        filteredVehicles = vehicleFilter.filterByYear(vehicles,year);
-        for (Vehicle vehicle : filteredVehicles) {
-            System.out.println(vehicle);
-        }
-*/
-
-/*
-        System.out.println("Price increase by how much %: ");
-        double percent = scan.nextInt();
-        scan.nextLine();
-
-        for (Vehicle vehicle : vehicles) {
-            System.out.println(vehicle);
-            vehicle.setPrice(vehicle.getPrice() + ((percent / 100) * vehicle.getPrice()));
-            System.out.println(vehicle);
-            System.out.println("_______________________________________");
-        }
-
-        System.out.println("Price decrease by how much %: ");
-        double percent = scan.nextInt();
-        scan.nextLine();
-
-        for (Vehicle vehicle : vehicles) {
-            System.out.println(vehicle);
-            vehicle.setPrice(vehicle.getPrice() - ((percent / 100) * vehicle.getPrice()));
-            System.out.println(vehicle);
-            System.out.println("_______________________________________");
-        }
-
-*/
 
 
     }

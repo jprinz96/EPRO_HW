@@ -13,12 +13,12 @@ public class VehicleFileWriter {
                 bw.write(vehicle.toString());
                 bw.newLine();
             }
-        }catch (IOException e){
-            System.out.println("Error writing vehicles to CSV file" +filePath);
+        } catch (IOException e) {
+            System.out.println("Error writing vehicles to CSV file" + filePath);
             System.out.println(e.getMessage());
             return false;
         }
-    return true;
+        return true;
     }
 
 }

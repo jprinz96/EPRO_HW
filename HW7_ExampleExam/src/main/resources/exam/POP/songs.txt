@@ -1,0 +1,122 @@
+Artist: Cyndi Lauper
+Album: She's So Unusual
+	Song# 19
+		Song: Girls Just Want to Have Fun
+Stream-Counter:35
+
+
+Artist: Test
+Album: Test
+	Song# 88
+		Song: Test test
+Stream-Counter:35
+
+
+Artist: Michael Jackson
+Album: Thriller
+	Song# 16
+		Song: Thriller
+Stream-Counter:23
+
+
+Artist: Adele
+Album: 21
+	Song# 22
+		Song: Rolling in the Deep
+Stream-Counter:17
+
+
+Artist: Katy Perry
+Album: Teenage Dream
+	Song# 25
+		Song: Firework
+Stream-Counter:04
+
+
+<strong>
+Artist: Prince
+Album: Purple Rain
+	Song# 20
+		Song: Purple Rain
+Stream-Counter:62
+<strong>
+
+
+<strong>
+Artist: Madonna
+Album: Like a Prayer
+	Song# 17
+		Song: Like a Prayer
+Stream-Counter:56
+<strong>
+
+
+Artist: Rihanna
+Album: Good Girl Gone Bad
+	Song# 29
+		Song: Umbrella
+Stream-Counter:07
+
+
+Artist: Taylor Swift
+Album: 1989
+	Song# 21
+		Song: Shake It Off
+Stream-Counter:28
+
+
+Artist: Bruno Mars
+Album: Unorthodox Jukebox
+	Song# 30
+		Song: Locked Out of Heaven
+Stream-Counter:49
+
+
+Artist: Justin Timberlake
+Album: FutureSex/LoveSounds
+	Song# 26
+		Song: SexyBack
+Stream-Counter:45
+
+
+Artist: Lady Gaga
+Album: The Fame
+	Song# 23
+		Song: Poker Face
+Stream-Counter:10
+
+
+<strong>
+Artist: Ed Sheeran
+Album: Divide
+	Song# 28
+		Song: Shape of You
+Stream-Counter:63
+<strong>
+
+
+Artist: Beyoncé
+Album: Dangerously in Love
+	Song# 27
+		Song: Crazy in Love
+Stream-Counter:41
+
+
+<strong>
+Artist: Whitney Houston
+Album: Whitney
+	Song# 18
+		Song: I Wanna Dance with Somebody
+Stream-Counter:70
+<strong>
+
+
+<strong>
+Artist: Britney Spears
+Album: ...Baby One More Time
+	Song# 24
+		Song: ...Baby One More Time
+Stream-Counter:58
+<strong>
+
+

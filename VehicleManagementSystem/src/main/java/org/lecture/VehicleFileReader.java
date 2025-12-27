@@ -30,7 +30,7 @@ public class VehicleFileReader {
                 }
                 //Zeile hat nicht genug Spalten (keine leeren Werte)
                 else if (values.length < expectetColumns) {
-                    System.out.printf("Row %d has not enough columns/values (&d) and will be ignored%n", lineNumber, values.length);
+                    System.out.printf("Row %d has not enough columns/values (%d) and will be ignored%n", lineNumber, values.length);
                     continue;
                 }
 

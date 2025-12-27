@@ -1,0 +1,119 @@
+Artist: Alt-J
+Album: An Awesome Wave
+	Song# 44
+		Song: Breezeblocks
+Stream-Counter:45
+
+
+<strong>
+Artist: Mumford & Sons
+Album: Sigh No More
+	Song# 38
+		Song: Little Lion Man
+Stream-Counter:70
+<strong>
+
+
+<strong>
+Artist: Modest Mouse
+Album: Good News for People Who Love Bad News
+	Song# 45
+		Song: Float On
+Stream-Counter:59
+<strong>
+
+
+Artist: Foals
+Album: Holy Fire
+	Song# 41
+		Song: My Number
+Stream-Counter:37
+
+
+<strong>
+Artist: Radiohead
+Album: OK Computer
+	Song# 33
+		Song: Karma Police
+Stream-Counter:57
+<strong>
+
+
+Artist: Tame Impala
+Album: Currents
+	Song# 37
+		Song: The Less I Know the Better
+Stream-Counter:46
+
+
+<strong>
+Artist: The 1975
+Album: I Like It When You Sleep, for You Are So Beautiful yet So Unaware of It
+	Song# 43
+		Song: Somebody Else
+Stream-Counter:50
+<strong>
+
+
+Artist: Florence + The Machine
+Album: Lungs
+	Song# 35
+		Song: Dog Days Are Over
+Stream-Counter:27
+
+
+Artist: Vampire Weekend
+Album: Vampire Weekend
+	Song# 36
+		Song: A-Punk
+Stream-Counter:29
+
+
+Artist: Arctic Monkeys
+Album: AM
+	Song# 31
+		Song: Do I Wanna Know?
+Stream-Counter:29
+
+
+<strong>
+Artist: The Black Keys
+Album: El Camino
+	Song# 40
+		Song: Lonely Boy
+Stream-Counter:68
+<strong>
+
+
+<strong>
+Artist: Hozier
+Album: Hozier
+	Song# 42
+		Song: Take Me to Church
+Stream-Counter:54
+<strong>
+
+
+Artist: The Strokes
+Album: Is This It
+	Song# 32
+		Song: Last Nite
+Stream-Counter:31
+
+
+Artist: Arcade Fire
+Album: The Suburbs
+	Song# 39
+		Song: Sprawl II (Mountains Beyond Mountains)
+Stream-Counter:37
+
+
+<strong>
+Artist: The Killers
+Album: Hot Fuss
+	Song# 34
+		Song: Mr. Brightside
+Stream-Counter:60
+<strong>
+
+
